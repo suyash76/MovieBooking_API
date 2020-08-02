@@ -4,9 +4,8 @@ itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
 Werkzeug==0.15.5
-python3
 sqlalchemy
 marshmallow
-flask_sqlalchemy
-flask_marshmallow
+flask-sqlalchemy
+flask-marshmallow
 marshmallow-sqlalchemy==0.17.1
