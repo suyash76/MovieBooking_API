@@ -340,7 +340,7 @@ def shows_By():
 
 @app.errorhandler(Exception)
 def show_error(error):
-    return jsonify({"status": "failure", "reason": "Incorrect Input"}), 400
+    return jsonify({"status": "failure", "reason": "Incorrect Input"})
 
 
 movie_schema = MovieSchema()
